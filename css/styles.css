@@ -5,3 +5,42 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+@font-face{
+  font-family : "Amadeus";
+
+  src : url('Amadeus.ttf');
+  src : url('Amadeus.ttf') format('truetype');
+}
+
+form {
+  padding-top: 60px;
+  background-image: url("../img/background.jpg");
+  height: 900px;
+  width: 900px;
+  position : absolute;
+  left : 415px;
+  top  : 185px;
+  text-align: center;
+  font-family: Amadeus;
+  font-size: 45px;
+  border-radius: 10em;
+}
+.button {
+  margin-top: 20px;
+}
+label {
+  color: #a980bf;
+  text-shadow: 3px 3px 3px black;
+}
+input, textarea {
+  border: none;
+  padding: 0 10px;
+  margin: 0;
+  width: 500px;
+  background: none;
+}
+input:focus, textarea:focus {
+  background: rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline-style: inset;
+}
